@@ -7,6 +7,7 @@ session = requests.session()
 # passwd = os.environ.get('PASSWD')
 # 从设置的环境变量中的Variables多个邮箱和密码 ,分割
 emails = os.environ.get('EMAIL', '').split(',')
+print('email为',emails)
 passwords = os.environ.get('PASSWD', '').split(',')
 
 # server酱
